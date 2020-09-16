@@ -3,8 +3,10 @@
   padding:0;
   box-sizing: border-box;  
 }
-#page-lading{
+body{
     background-color:#ffffff;
+    width: 100vw;
+    height:100vh;
 }
 
 header{
@@ -18,6 +20,9 @@ header h1{
     padding-top:1.8rem;
     font: 700 italic 3rem Roboto;
     padding-right:20px;
+}
+h1 span{
+    color: black;
 }
 nav{
     padding-top:1.25rem;
@@ -60,7 +65,7 @@ nav a{
 }
 .call small{
     font:700 1rem Roboto;
-    text-align: justify;
+    text-align: center;
 }
 
 .call p{
@@ -70,7 +75,6 @@ nav a{
 
 .call-campo{
     padding-top:1.6rem
-
 }
 
 .call-button{ 
@@ -87,3 +91,72 @@ nav a{
     background: #7a0f16;
     cursor: pointer;
 }
+main{
+    width:100%;
+    text-align: center;
+    align-content: center;
+    padding-top:38rem;
+    align-items: center;
+    margin:3rem auto;
+}
+.keyboard-img{
+    height:10rem;
+    margin:0.652rem auto;
+    align-items: center;
+}
+.points{
+    width: 60%;
+    height: 20rem;
+    align-content: center;
+    margin: 1rem auto;
+    display: flex;
+}
+li{
+    text-align: justify;
+    list-style-type: none;
+    padding-top: 1rem;
+    display: flex;
+    font: 500 1.2rem Roboto
+}
+.icone{
+    padding-right:1rem;
+    color: #D6000D;
+    height:2rem;
+}
+.contato{
+    height:20rem;
+    display: flex;
+    flex-direction: column;
+}
+.contato p{
+    font:700 1.3rem Roboto;
+    text-align: center;
+}
+#texto{
+    width:16rem;
+    height:3.3rem;
+    margin:1rem auto;
+    background-color:#d3d3d3;
+    border-radius: 0.8rem;
+    border: none;
+    padding-left:0.3rem;
+    font:400 1.4rem Roboto;
+    color:#000000;
+    outline: 0;
+}
+#butao{
+    width:16rem;
+    height:3.3rem;
+    margin:1rem auto;
+    background-color:#d3d3d3;
+    border-radius: 0.8rem;
+    border: none;
+    padding-left:0.3rem;
+    font:500 1.4rem Roboto;
+    color: #ffffff;
+    background-color:#D6000D;
+    outline: 0;
+}
+
+
+
