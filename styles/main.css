@@ -1,0 +1,89 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;  
+}
+#page-lading{
+    background-color:#ffffff;
+}
+
+header{
+    height:10rem;
+    width:100%;
+    text-align: center;
+    align-content: center;
+}
+header h1{
+    color:#D6000D;
+    padding-top:1.8rem;
+    font: 700 italic 3rem Roboto;
+    padding-right:20px;
+}
+nav{
+    padding-top:1.25rem;
+}
+.login-button{ 
+    margin-left: 1rem;
+    width:5rem;
+    height:3rem;
+    border-radius:1rem;
+    background-color:#D6000D;
+    font: 400 1.2rem Roboto;
+    color:#fff;
+    outline: 0;
+    border: none;
+}
+
+.login-button:hover{
+    background: #7a0f16;
+    cursor: pointer;
+}
+nav a{
+    padding-left:3rem;
+    text-decoration:none;
+    color:#000000;
+    font: 400 1rem Roboto;
+    font-weight: 500;
+    margin-left:-1.2rem;
+    
+}
+
+.img-video img{
+    padding-top:2.2rem;
+    height:15rem;
+    margin:0.652rem auto;
+    width: inherit;
+}
+
+.call{
+    padding-top:2rem;
+}
+.call small{
+    font:700 1rem Roboto;
+    text-align: justify;
+}
+
+.call p{
+    font:700 3rem Roboto;
+    color:#D6000D;
+}
+
+.call-campo{
+    padding-top:1.6rem
+
+}
+
+.call-button{ 
+    width:19rem;
+    height:3rem;
+    border-radius:1rem;
+    background-color:#D6000D;
+    font: 400 1.2rem Roboto;
+    color:#fff;
+    outline: 0;
+    border: none;
+}
+.call-button:hover {
+    background: #7a0f16;
+    cursor: pointer;
+}
