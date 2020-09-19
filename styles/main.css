@@ -124,7 +124,7 @@ li{
     height:2rem;
 }
 .contato{
-    height:20rem;
+    height:17rem;
     display: flex;
     flex-direction: column;
 }
@@ -158,5 +158,56 @@ li{
     outline: 0;
 }
 
+.comment{
+    height:25rem;
+    width:23rem;
+    display: flex;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+}
 
+.asia{
+    width:16rem;
+    height:9rem;
+}
+.japan{
+    width: 4rem;
+    height: 4rem;
+    background-color: red;
+    border-radius: 100rem;
+    margin:1.2rem auto;
+}
+
+.box{
+    height:11rem;
+    background-color: #bebebe;
+    text-align: justify;
+    border-radius: 0.8rem;
+    color: #000000;
+    margin-top: 2rem;
+    display: flex;
+}
+
+.id{
+    display: flex;
+    flex-direction: column;
+    padding-left: rem;
+    padding-top: 1rem;
+}
+.box p{
+    color: #000000;
+    font: 500 1rem Roboto;
+}
+.coment{
+    padding-right:1rem;
+}
+.nome{
+  font: 500 1.6rem Roboto;
+  margin-top: 1rem;
+}
+
+.job{
+    font: 700 1rem Roboto;
+}
 
