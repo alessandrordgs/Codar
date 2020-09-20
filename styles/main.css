@@ -1,17 +1,19 @@
+:root{
+    font-size:75%;
+    height:100vh;
+}
 *{
   margin:0;
   padding:0;
   box-sizing: border-box;  
 }
-body{
+html, body, main{
     background-color:#ffffff;
-    width: 100vw;
-    height:100vh;
+    
 }
 
 header{
     height:10rem;
-    width:100%;
     text-align: center;
     align-content: center;
 }
@@ -33,7 +35,7 @@ nav{
     height:3rem;
     border-radius:1rem;
     background-color:#D6000D;
-    font: 400 1.2rem Roboto;
+    font: 400 1.6rem Roboto;
     color:#fff;
     outline: 0;
     border: none;
@@ -47,7 +49,7 @@ nav a{
     padding-left:3rem;
     text-decoration:none;
     color:#000000;
-    font: 400 1rem Roboto;
+    font: 400 1.6rem Roboto;
     font-weight: 500;
     margin-left:-1.2rem;
     
@@ -64,7 +66,7 @@ nav a{
     padding-top:2rem;
 }
 .call small{
-    font:700 1rem Roboto;
+    font:700 1.2rem Roboto;
     text-align: center;
 }
 
@@ -78,11 +80,11 @@ nav a{
 }
 
 .call-button{ 
-    width:19rem;
-    height:3rem;
+    width:20rem;
+    height:4rem;
     border-radius:1rem;
     background-color:#D6000D;
-    font: 400 1.2rem Roboto;
+    font: 400 1.6rem Roboto;
     color:#fff;
     outline: 0;
     border: none;
@@ -92,15 +94,16 @@ nav a{
     cursor: pointer;
 }
 main{
-    width:100%;
     text-align: center;
     align-content: center;
     padding-top:38rem;
     align-items: center;
     margin:3rem auto;
+    justify-content: center;
+    align-content: center;
 }
 .keyboard-img{
-    height:10rem;
+    height:15rem;
     margin:0.652rem auto;
     align-items: center;
 }
@@ -110,18 +113,20 @@ main{
     align-content: center;
     margin: 1rem auto;
     display: flex;
+    justify-content: center;
 }
 li{
     text-align: justify;
     list-style-type: none;
     padding-top: 1rem;
     display: flex;
-    font: 500 1.2rem Roboto
+    font: 500 1.3rem Roboto
 }
 .icone{
     padding-right:1rem;
     color: #D6000D;
     height:2rem;
+    font-size: 1.6rem;
 }
 .contato{
     height:17rem;
@@ -129,12 +134,12 @@ li{
     flex-direction: column;
 }
 .contato p{
-    font:700 1.3rem Roboto;
+    font:700 1.6rem Roboto;
     text-align: center;
 }
 #texto{
-    width:16rem;
-    height:3.3rem;
+    width:18rem;
+    height:4rem;
     margin:1rem auto;
     background-color:#d3d3d3;
     border-radius: 0.8rem;
@@ -145,8 +150,8 @@ li{
     outline: 0;
 }
 #butao{
-    width:16rem;
-    height:3.3rem;
+    width:18rem;
+    height:4rem;
     margin:1rem auto;
     background-color:#d3d3d3;
     border-radius: 0.8rem;
@@ -160,10 +165,8 @@ li{
 
 .comment{
     height:25rem;
-    width:23rem;
     display: flex;
     margin: 2rem auto;
-    display: flex;
     flex-direction: column;
 }
 
@@ -187,6 +190,8 @@ li{
     color: #000000;
     margin-top: 2rem;
     display: flex;
+    width: 23.5rem;
+    margin: 2rem auto;
 }
 
 .id{
@@ -211,3 +216,58 @@ li{
     font: 700 1rem Roboto;
 }
 
+footer{
+    height:60rem;
+    background-color: #000000;
+    color: #ffffff;
+    padding-bottom: 2rem;
+}
+.footer-header{
+    height:5rem;
+    margin: 1rem auto;
+}
+.footer-header h1{
+    color:#ffffff;
+    font: 700 italic 3rem Roboto;
+}
+.footer-header span{
+    font: 400 1.4rem Roboto;
+}
+.sobre-contato{
+    width: 18rem;
+    height: 6rem;
+ 
+    text-align: left;
+    padding-left:2rem;
+    margin: 1rem 2rem 0 0;
+    
+}
+.sobre-contato h2{
+    font: 500 2rem Roboto;
+}
+.sobre-contato span{
+    font: 400 1.1rem Roboto;
+    text-align: justify;
+}
+.redes{
+    height:15rem;
+    margin-top:5rem;
+    text-align: left;
+    padding-left:2rem;
+   
+}
+.redes h2{
+    font:500 2rem Roboto;
+    color:#ffffff;
+}
+.icon-1{
+    margin-top: 1.6rem;
+}
+.icon {
+    font-size: 4rem;
+    display:inline;
+    padding-right: 2rem;
+    color:#D6000D;
+}
+
+  
