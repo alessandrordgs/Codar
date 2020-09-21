@@ -45,7 +45,7 @@ nav{
     background: #7a0f16;
     cursor: pointer;
 }
-nav a{
+nav a,.nav{
     padding-left:3rem;
     text-decoration:none;
     color:#000000;
@@ -108,7 +108,6 @@ main{
     align-items: center;
 }
 .points{
-    width: 60%;
     height: 20rem;
     align-content: center;
     margin: 1rem auto;
@@ -197,12 +196,11 @@ li{
 .id{
     display: flex;
     flex-direction: column;
-    padding-left: rem;
     padding-top: 1rem;
 }
 .box p{
     color: #000000;
-    font: 500 1rem Roboto;
+    font: 500 1.1rem Roboto;
 }
 .coment{
     padding-right:1rem;
