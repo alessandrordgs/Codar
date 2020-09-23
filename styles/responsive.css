@@ -5,13 +5,10 @@
 }
 
 @media(min-width:1100px){
-    #page-lading{
-        max-width: 1290px;
-     
-    }
+   
    nav{
        display: flex;
-       margin-left: 4rem;
+       margin-left: 8rem;
    } 
 
    nav h1{
@@ -75,7 +72,6 @@ nav a{
 .keyboard{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows:1fr 350px;
     grid-template-areas: 
     "texting image";
     column-gap:87px;
@@ -99,6 +95,55 @@ nav a{
 .keyboard-img{
     height:40rem;
     margin-top: -10rem;
+}
+.contato p{
+    text-align: left;
+    margin-left:21rem;
+    font:700 2rem Roboto;
+}
+.texto-button{
+   margin-right:30rem;
+   display: inline;
+}
+.texto-button input{
+    padding-left:2rem ;
+}
+#texto, #butao{
+    width:20rem;
+    height: 4.5rem;
+    font:500 1.7rem Roboto;
+}
+.comment{
+     display:flex;
+     flex-direction: row;
+   margin-left:18rem;
+}
+.box{
+    width: 35rem;
+    height: 12rem;
+    margin:2rem;
+   
+}
+.box p{
+    color: #000000;
+    font: 500 1.28rem Roboto;
+}
+.japan{
+    width: 5rem;
+    height: 5rem;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+}
+.footer-header{
+  text-align: left;
+   margin:0;
+   margin-left: 17rem;
+}
+.redes{
+    margin: 0;
 }
 
 

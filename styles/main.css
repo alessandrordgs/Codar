@@ -1,6 +1,6 @@
 :root{
     font-size:75%;
-    height:100vh;
+   
 }
 *{
   margin:0;
@@ -9,7 +9,8 @@
 }
 html, body, main{
     background-color:#ffffff;
-    
+    height:100vh;
+    width: 100%;
 }
 
 header{
@@ -136,6 +137,11 @@ li{
     font:700 1.6rem Roboto;
     text-align: center;
 }
+.texto-button{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
 #texto{
     width:18rem;
     height:4rem;
@@ -161,9 +167,12 @@ li{
     background-color:#D6000D;
     outline: 0;
 }
+#butao:hover{
+    background: #7a0f16;
+    cursor: pointer;
+}
 
 .comment{
-    height:25rem;
     display: flex;
     margin: 2rem auto;
     flex-direction: column;
@@ -183,7 +192,7 @@ li{
 
 .box{
     height:11rem;
-    background-color: #bebebe;
+    background-color:#e3e3e3;
     text-align: justify;
     border-radius: 0.8rem;
     color: #000000;
@@ -215,10 +224,10 @@ li{
 }
 
 footer{
-    height:60rem;
     background-color: #000000;
     color: #ffffff;
     padding-bottom: 2rem;
+    
 }
 .footer-header{
     height:5rem;
