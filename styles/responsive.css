@@ -116,10 +116,10 @@ nav a{
 .comment{
      display:flex;
      flex-direction: row;
-   margin-left:18rem;
+   margin-left:8rem;
 }
 .box{
-    width: 35rem;
+    width: 43rem;
     height: 12rem;
     margin:2rem;
    
@@ -140,12 +140,17 @@ footer{
 .footer-header{
   text-align: left;
    margin:0;
-   margin-left: 17rem;
+  
 }
-.redes{
+.footer-header,.sobre-contato, .redes{
     margin: 0;
+    margin-left:7rem ;
+    margin-top: 6rem;
 }
-
+.box-footer span{
+    margin-top: 2rem;
+    display: flex;
+}
 
 }
 
