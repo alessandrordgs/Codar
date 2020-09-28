@@ -143,7 +143,7 @@ li{
     flex-direction: column;
 }
 #texto{
-    width:18rem;
+    width:20rem;
     height:4rem;
     margin:1rem auto;
     background-color:#d3d3d3;
@@ -155,7 +155,7 @@ li{
     outline: 0;
 }
 #butao{
-    width:18rem;
+    width:20rem;
     height:4rem;
     margin:1rem auto;
     background-color:#d3d3d3;
