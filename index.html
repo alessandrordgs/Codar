@@ -1,164 +1,166 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Codar | soluções modernas </title>
-    
     <script src="https://kit.fontawesome.com/ac4c6e2b8b.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/styles/main.css">
-    <link rel="stylesheet" href="/styles/responsive.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,500;1,700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="./styles/responsive.css">
+        <link rel="stylesheet" href="./styles/desktop.css">
+    <title>Codar | soluções modernas </title>
 </head>
-<body id="page-lading">
-    
-    
+
+<body id="body">
     <header>
-
+        <h1>Codar <span>.</span></h1>
         <nav>
-            <h1>Codar<span>.</span></h1>
-        
-             <div class="nav">
-             <a href="#inicio">Inicio</a>
-             <a href="#serviço">Serviços</a>
-             <a href="#contato">Contato</a>
-             <input type="button" value="login" class="login-button">
-            </div>
+            <button class="contrast" onclick="Constraste.change()"><i class="fas fa-adjust"></i></button>
+            <button class="constrastNormal" onclick="Constraste.initial()" ><i class="fas fa-adjust"></i></button>
+            <a href="">Início</a>
+            <a href="">Serviços</a>
+            <a href="">Contato</a>
         </nav>
-
-    
-             <div class="conteiner" id="inicio">
-                
-                <div class="img-video">
-                 <img class="video_call" src="/assets/video_call.png" alt="video_call">
-                </div>
-               
-                <div class="call">
-                <small>Alavanque seu negócio com um</small><p>
-                Website incrível</p> 
-                  
-                
-                <div class="call-campo">
-                  <input type="button" value="Solicitar Orçamento" class="call-button">
-                  </div>             
-               </div>
-            
-            
+    </header>
+    <main>
+        <section class="containerHeader">
+            <div class="headerImg">
+                <img src="./assets/LigacaoEmVideoPeloNotebook.png"
+                    alt="Imagem de uma ligação de video feita via notebook vermelho com uma pessoa acenando usando uma camisa vermelha ">
             </div>
 
-        
-    </header>
+            <div class="headerInfo">
+                <span>Alavanque seu negócio com um </span>
+                <h1>Website incrível</h1> 
+                <div>
+                <button>Solicitar orçamento</button>
+            </div>
+            </div>
+           
+        </section>
+        <section class="video">
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/W9YZ48N9epg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
 
-    <main>
-            <div class="keyboard" id="serviço">
-                <div id="keyboard-img">
-                    <img src="/assets/coding_.png" alt="coding" class="keyboard-img">
+        <section class="containerMain">
+            <div class="bullet">
+                <div class="mainImg">
+                    <img src="./assets/EscrevendoNoTeclado.png"
+                        alt="Uma pessao escrevendo em um teclado vermelho com uma tela em sua frente">
                 </div>
-                
-                <div class="points">
+    
+                <div class="bulletPoints">
                     <ul>
                         <li>
-                        <div class="icone"><i class="fa fa-check-circle" aria-hidden="true"></i></div>
-                        <p>Domínio personalizado</p>
+                            <div class="marked"><i class="fa fa-check-circle" aria-hidden="true"></i></div>
+                            <p>Domínio personalizado</p>
                         </li>
                         <li>
-                           <div class="icone"><i class="fa fa-check-circle" aria-hidden="true"></i></div> Hospedagem
+                            <div class="marked"><i class="fa fa-check-circle" aria-hidden="true"></i></div> Hospedagem
                         </li>
                         <li>
-                           <div class="icone"><i class="fa fa-check-circle" aria-hidden="true"></i></div>Site responsivo
+                            <div class="marked"><i class="fa fa-check-circle" aria-hidden="true"></i></div>Site responsivo
                         </li>
                         <li>
-                           <div class="icone"><i class="fa fa-check-circle" aria-hidden="true"></i></div>Redes sociais
+                            <div class="marked"><i class="fa fa-check-circle" aria-hidden="true"></i></div>Redes sociais
                         </li>
                         <li>
-                           <div class="icone"><i class="fa fa-check-circle" aria-hidden="true"></i></div>Chat online
+                            <div class="marked"><i class="fa fa-check-circle" aria-hidden="true"></i></div>Chat online
                         </li>
                         <li>
-                           <div class="icone"><i class="fa fa-check-circle" aria-hidden="true"></i></div> Blog integrado
+                            <div class="marked"><i class="fa fa-check-circle" aria-hidden="true"></i></div> Blog integrado
                         </li>
+                        <button onclick="Audio.playBullet()" class="buttonAudio"><i class="fas fa-play"></i></button>
                     </ul>
-
+    
                 </div>
             </div>
-            
-            
-            <div class="contato">
-                   <p>Nossa equipe está à disposição!</p>
-                <div class="texto-button"><input type="text" name="texto" id="texto" placeholder="  Celular">
-                <input type="button" value="Ligamos para você" id="butao">
-                 </div>
-            </div>
-
-           <div class="comment">
-               <div class="box">
-                  <div class="asia">
-                   <div class="japan">
-                   </div>
+            <div class="mainContact">
+                <h1>Nossa equipe está à disposição!</h1>
+                <div class="inputContact">
+                    <label class="sr-only" for="Numero">Numero para contato</label>
+                    <input type="text" name="numero" placeholder="Celular" id="">
+                    <button class="buttonContact">Ligamos para você</button>
                 </div>
- 
-
-                 <div class="id">
-                <p class="coment">Já tive experiências com outras 4 empresas da área e a Codar é sem sombra de dúvidas superior em todos os aspectos.</p>
-              <span class="nome">Pedro Ferreira</span> <small class="job">Construtora Minari</small>
-               </div>
-              
             </div>
+
+            <section class="commentsMain">
+                <div class="commentsBox">
+                    <div class="commentsPhoto">
+                        <img src="./assets/IconPhoto.svg" alt="Um circulo vermelho usando para representar uma foto">
+                    </div>
+                    <div>
+                        <p>Já tive experiências com outras 4 empresas da área e a Codar é sem sombra de dúvidas superior em
+                            todos os aspectos.</p>
+                        <h1>
+                            Pedro Ferreira
+                        </h1>
+                        <small>Construtora Minari</small>
+                        <button onclick="Audio.playPedro()" class="buttonAudio"><i class="fas fa-play"></i></button>
+                    </div>
+                </div>
+                    <div class="commentsBox">
+                        <div class="commentsPhoto"><img src="./assets/IconPhoto.svg" alt="Um circulo vermelho usando para representar uma foto"></div>
+                        <div>
+                            <p>Processos bem simples e criação de um site exatamente como a minha escola queria!</p>
+                            <h1>
+                                Maria Rita
+                            </h1>
+                            <small>Escola Criança Feliz </small>
+                            <button onclick="Audio.playMaria()" class="buttonAudio"><i class="fas fa-play"></i></button>
+                        </div>
+                    </div>
                
-            <div class="box">
-                <div class="asia">
-                 <div class="japan">
-                 </div>
-                </div>
-
-
-               <div class="id">
-              <p class="coment">Processos bem simples e criação de um site exatamente como a minha escola queria!</p>
-            <span class="nome">Maria Rita</span> <small class="job">Escola Criança Feliz</small>
-             </div>
-           </div>
-
-           </div>
-        
-           <footer id="contato">
-            <div class="footer-header">
-            <h1>Codar.</h1>
-            <span>
-                Criamos websites incríveis
-            </span>
-            </div>
-             
-            <div class="sobre-contato"> 
-              <div class="box-footer">
-                  <h2>Sobre</h2>
-                  <span>Amamos criar soluções <br>
-                    e entregar sites incríveis</span>
-              </div>
-             </div>
-              
-              <div class="sobre-contato">
-                 <div class="box-footer">  
-                <h2>Contato</h2>
-                   <span>
-                    123 Av. Manjar - Nárnia
-                </span>
-                    <span>+55 96 2321-3131 </span> 
-                    
-                     <span><u>contato@codar.com</u></span> 
-                
-                </div>   
-            </div>
-              <div class="redes">
-                  <h2>Redes sociais</h2>
-                  <div class="icon-1">
-                  <div class="icon"><i class="fab fa-facebook-square"></i></div>
-                    <div class="icon"><i class="fab fa-instagram"></i></div>
-                    <div class="icon"><i class="fab fa-twitter-square"></i></div>
-                </div>
-                  
-              </div>
-
-           </footer>
-
+            </section>
+        </section>
     </main>
+    <footer id="footer">
+        <section class="footer">
+            <div class="headerFooter">
+                <h1>Codar.</h1>
+                <span>Criamos websites incríveis</span>
+            </div>
+            <div class="infoFooter">
+                <h1>Sobre</h1>
+                <span>Amamos criar soluções <br> e entregar sites incríveis</span>
+            </div>
+            <div class="infoFooter">
+                <h1>Contato</h1>
+                <span>123 Av.Manjar - Nárnia </span>
+                <span>+55 96 2321-3131 </span>
+                <span><a href="">contato@codar.com</a></span>
+            </div>
+        </section>
+        <section>
+            <div class="social">
+                <h2>Redes sociais</h2>
+                <div class="iconSocial">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter-square"></i>
+                </div>
+        </section>
+    </footer>
+
+    <div>
+        <audio id="bulletPoint" src="./assets/Bulletpointsaudio.m4a"></audio>
+        <audio id="audioPedro" src="./assets/AudioPedro.m4a"></audio>
+        <audio id="audioMaria" src="./assets/AudioMaria.m4a"></audio>
+    </div>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+    
 </body>
+<script src="./script.js"></script>
 </html>
